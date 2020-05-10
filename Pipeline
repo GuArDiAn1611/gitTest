@@ -25,7 +25,7 @@ pipeline {
          stage('Building Docker Image') {
       		steps {
         		script {
-          			dockerImage = "sudo" + docker.build registry + ":latest"
+          			dockerImage = docker.build registry + ":latest"
         		}
       		}
     	}
