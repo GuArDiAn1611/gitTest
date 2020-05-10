@@ -7,11 +7,16 @@ package com.devops.calc;
 public class Calculator 
 {
     public static void main(String[] args) {
-		System.out.println("1066 + 7 = " + add(1066, 7));
-		System.out.println("5667 - 234 = " + subtract(5667, 234));
-		System.out.println("12 * 134 = " + multiply(12, 134));
-		System.out.println("789 / 12 = " + divide(789, 12));
-		System.out.println("new change 2");
+		System.out.println("************** Calculator Program **********");
+		System.out.println("********************************************");
+		System.out.println();
+		System.out.println("ADDITION       : 2020 + 3030 = " + add(2020, 3030));
+		System.out.println("SUBTRACTION    : 7000 - 4000 = " + subtract(7000, 4000));
+		System.out.println("MULTIPLICATION : 1200 * 6    = " + multiply(1200, 6));
+		System.out.println("DIVISION       : 7890 / 2    = " + divide(7890, 2));
+		System.out.println();
+		System.out.println("********************************************");
+		System.out.println("********************************************");
 		
 	}
 	
